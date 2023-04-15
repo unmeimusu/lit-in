@@ -17,8 +17,8 @@ class Fourth extends LitElement {
         `
     }
 
-    changeName(event) {
-        const input = event.target
+    changeName(evnt) {
+        const input = evnt.target
         this.name = input.value
     }
 }
