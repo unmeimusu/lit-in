@@ -5,7 +5,11 @@ export class Timer extends LitElement {
         v: {}
     }
 
-    static styles = css`...`
+    static styles = css`
+    :host {
+        color: blue
+    }
+    `
 
     constructor() {
         super()
