@@ -30,8 +30,8 @@ export class Third extends LitElement {
         </select>
 
         <!--Tailwind Integration-->
-        <div class="bg-slate-600 text-center">Hello World</div>
-        <h1 class="bg-slate-900 text-3xl font-bold underline">
+        <div class="bg-slate-600 text-center text-white">Hello World</div>
+        <h1 class="bg-slate-900 text-gray-400 text-3xl font-bold underline">
         Title
         </h1>
         `
