@@ -1,4 +1,4 @@
-import { LitElement, html } from "/lit-core.min.js";
+import { LitElement, html } from "./lit-core.min";
 
 export class Second extends LitElement {
     render() {
