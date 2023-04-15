@@ -1,6 +1,6 @@
 import { LitElement, html } from "./lit-core.min.js";
 
-export class Third extends LitElement {
+class Third extends LitElement {
     createRenderRoot() {
         return this; // turn off shadow dom to access external css with bundler configuration
     }

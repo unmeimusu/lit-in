@@ -1,6 +1,6 @@
 import { LitElement, html } from "./lit-core.min.js";
 
-export class Second extends LitElement {
+class Second extends LitElement {
     render() {
         return html`
         <span>expanded.<span>

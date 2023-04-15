@@ -1,6 +1,6 @@
 import {LitElement, html, css} from "./lit-core.min.js"
 
-export class FirstTime extends LitElement {
+class FirstTime extends LitElement {
     static properties = {
         v: {}
     }
