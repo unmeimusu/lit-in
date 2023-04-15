@@ -7,7 +7,7 @@ class Fourth extends LitElement {
 
     constructor() {
         super()
-        this.name = "Your name"
+        this.name = "Your name" // reactive property
     }
 
     render() {
@@ -18,9 +18,8 @@ class Fourth extends LitElement {
     }
 
     changeName(evnt) {
-        const input = evnt.target
-        this.name = input.value
+        const inpt = evnt.target
+        this.name = inpt.value
     }
 }
-
 customElements.define("my-fourth",Fourth)

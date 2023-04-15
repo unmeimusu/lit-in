@@ -37,5 +37,4 @@ class Third extends LitElement {
         `
     }
 }
-
 customElements.define("my-third",Third)
