@@ -1,6 +1,6 @@
 import {LitElement, html, css} from "/lit-core.min.js"
 
-export class Timer extends LitElement {
+export class FirstTime extends LitElement {
     static properties = {
         v: {}
     }
@@ -22,4 +22,4 @@ export class Timer extends LitElement {
         `;
     }
 }
-customElements.define('my-timer',Timer)
+customElements.define('my-start',FirstTime)
