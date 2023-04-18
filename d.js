@@ -1,5 +1,5 @@
 import { LitElement, html, unsafeCSS, css } from "./lit-all.min.js";
-import styles2 from "./pico.css";
+import * as styles2 from "./pico.css";
 
 class Fourth extends LitElement {
     static properties = {

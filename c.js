@@ -1,4 +1,4 @@
-import { LitElement, html } from "./lit-core.min.js";
+import { LitElement, html } from "./lit-all.min.js";
 
 class Third extends LitElement {
     createRenderRoot() {
