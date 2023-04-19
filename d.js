@@ -1,14 +1,12 @@
 import { LitElement, html, unsafeCSS, css } from "./lit-all.min.js";
-import * as styles2 from "./pico.css";
+import * as styles2 from "./pico.css" assert { type: "css" }
 
 class Fourth extends LitElement {
     static properties = {
         name: {},
     }
 
-    static styles = css`
-      ${unsafeCSS(styles2)}
-    `
+    static styles = [unsafeCSS(styles2)]
   
     constructor() {
         super()
@@ -17,7 +15,6 @@ class Fourth extends LitElement {
     
     render() {
         return html`
-        <style>${styles}</style>
         <p>Hello, ${this.name}</p>
         <input @input=${this.changeName} placeholder="Enter your name">
 <!-- Button to trigger the modal -->
